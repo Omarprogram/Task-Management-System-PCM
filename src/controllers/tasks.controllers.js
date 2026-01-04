@@ -30,7 +30,6 @@ export const editTasks = async (req, res) => {
     res.status(500).send({ message: "Server error" });
   }
 };
-
 export const deleteTasks = async (req, res) => {
   const id = req.params.id;
   try {
